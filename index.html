@@ -1,7 +1,6 @@
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Pagina Segura</title>
@@ -22,19 +21,23 @@
             style="position: absolute; left: 45%; width: 500px; height: 200px; margin-top: 150px; margin-left: -200px;">
             <br>
             <br>
-            <img style="background-color: bisque; height: 50px;width: 50px" src="https://cdn-icons-png.flaticon.com/512/889/889221.png">
+            <img style="background-color: bisque; height: 50px;width: 50px"
+                src="https://cdn-icons-png.flaticon.com/512/889/889221.png">
             <br>
 
-            <div style="font-size:20px; color: white;">                
+            <div style="font-size:20px; color: white;">
                 Tudo certo!
             </div>
             <br>
-            <button
+            <button onclick="redirecionar()"
                 style="width: 75%; font-size: 20px; background-color: greenyellow; color: black; border-radius: 10px;">Clique
                 Aqui para continuar</button>
         </div>
     </div>
-
+    <script>
+        function redirecionar() {
+            window.location.href = "http://www.devmedia.com.br"
+        }
+    </script>
 </body>
-
 </html>
