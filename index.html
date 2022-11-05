@@ -4,39 +4,32 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Pagina Segura</title>
-    <style type="text/css">
-        .box {
-            width: 500px;
-            height: 250px;
-            background-color: blue;
-            border-radius: 10px;
-        }
-    </style>
 </head>
 
-<body style="background-color: snow">
-    <!-- iremos criar nossa div onde ficará o box arredondado -->
-    <div style="text-align: center; height: 1200px;">
-        <div class="box"
-            style="position: absolute; left: 45%; width: 500px; height: 200px; margin-top: 150px; margin-left: -200px;">
+<body style="background: #0B486B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F56217, #0B486B) ;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F56217, #0B486B) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+    <div style="text-align: center; height: 914px;">
+        <div
+            style="position: absolute; left: 35%; width: 700px; height: 200px; margin-top: 300px; margin-left: -200px;">
             <br>
             <br>
-            <img style="background-color: bisque; height: 50px;width: 50px"
-                src="https://cdn-icons-png.flaticon.com/512/889/889221.png">
+            <img style=" height: 300px;width: 300px" src="polegarUp.png">
             <br>
 
-            <div style="font-size:20px; color: white;">
+            <div style="font-size:100px; color: white;">
                 Tudo certo!
             </div>
             <br>
             <button onclick="redirecionar()"
-                style="width: 75%; font-size: 20px; background-color: greenyellow; color: black; border-radius: 10px;">Clique
-                Aqui para continuar</button>
+                style="font-size: 70px; font-weight: bold; background-color: greenyellow; color: black; border-radius: 10px;">Clique
+                aqui para continuar</button>
         </div>
     </div>
     <script>
         function redirecionar() {
-            window.location.href = "http://www.devmedia.com.br"
+            window.location.href = "https://api.whatsapp.com/send?phone=5565920000147&text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20as%20Gotas%20Africanas%20%F0%9F%9A%80"
         }
     </script>
 </body>
